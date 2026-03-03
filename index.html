@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CA YourName | Chartered Accountant</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ffffff;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo{
+    font-weight:700;
+    font-size:20px;
+    color:#1f3c88;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.btn{
+    background:#1f3c88;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    background:#e9eef7;
+}
+
+.hero-text h1{
+    font-size:40px;
+    color:#1f3c88;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    margin-bottom:20px;
+}
+
+.hero img{
+    width:350px;
+    border-radius:10px;
+}
+
+/* STATS */
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    background:#1f3c88;
+    color:#fff;
+    padding:20px;
+}
+
+.stats h2{
+    font-size:28px;
+}
+
+/* SECTION */
+section{
+    padding:70px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+    color:#1f3c88;
+}
+
+/* ABOUT */
+.about{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.about img{
+    width:250px;
+    border-radius:50%;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#1f3c88;
+}
+
+/* WHY CHOOSE */
+.why{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    text-align:center;
+}
+
+/* TESTIMONIAL */
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.testimonial-card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* CONTACT */
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1f3c88;
+    color:#fff;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .why{
+        flex-direction:column;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">CA YourName</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn">Book Consultation</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Trusted Chartered Accountant & Financial Advisor</h1>
+        <p>Helping You Navigate Your Finances with Confidence.</p>
+        <a href="#contact" class="btn">Schedule a Consultation</a>
+    </div>
+    <img src="https://via.placeholder.com/350" alt="CA Profile">
+</div>
+
+<!-- STATS -->
+<div class="stats">
+    <div>
+        <h2>8+</h2>
+        <p>Years Experience</p>
+    </div>
+    <div>
+        <h2>500+</h2>
+        <p>Satisfied Clients</p>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+        <img src="https://via.placeholder.com/250" alt="Profile">
+        <div>
+            <h3>CA YourName</h3>
+            <p>Chartered Accountant | ICAI Member</p>
+            <br>
+            <p>Expert in Taxation, Audit & Business Advisory with over 8 years of professional experience.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2 class="section-title">My Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Tax Planning</h3>
+            <p>Strategies to minimize tax liabilities.</p>
+        </div>
+        <div class="card">
+            <h3>GST & Compliance</h3>
+            <p>GST filing & regulatory compliance.</p>
+        </div>
+        <div class="card">
+            <h3>Audit & Assurance</h3>
+            <p>Comprehensive audit services.</p>
+        </div>
+        <div class="card">
+            <h3>Business Advisory</h3>
+            <p>Company formation & financial guidance.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section>
+    <h2 class="section-title">Why Choose Me?</h2>
+    <div class="why">
+        <div>
+            <h3>Expertise</h3>
+            <p>In-depth knowledge & skills</p>
+        </div>
+        <div>
+            <h3>Accuracy</h3>
+            <p>Precise & timely solutions</p>
+        </div>
+        <div>
+            <h3>Confidentiality</h3>
+            <p>Your data kept secure</p>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+    <h2 class="section-title">Client Testimonials</h2>
+    <div class="testimonials">
+        <div class="testimonial-card">
+            <p>"Excellent service! Highly recommended."</p>
+            <strong>- Rahul S.</strong>
+        </div>
+        <div class="testimonial-card">
+            <p>"Professional and thorough. Helped us save on taxes."</p>
+            <strong>- Anita M.</strong>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="text" placeholder="Your Phone">
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+
+        <div>
+            <h3>Contact Info</h3>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 info@example.com</p>
+            <p>📍 Your City, India</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 CA YourName. All Rights Reserved.
+</footer>
+
+</body>
+</html>
