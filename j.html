@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Professional | Trust-First Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,600;1,700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        .serif {
+            font-family: 'Crimson Pro', serif;
+        }
+
+        /* Ticker Animation */
+        @keyframes ticker {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .ticker-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: ticker 25s linear infinite;
+        }
+
+        .bg-navy {
+            background-color: #0c1a32;
+        }
+
+        .border-gold {
+            border-color: #bfa16d;
+        }
+
+        .text-gold {
+            color: #bfa16d;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <div class="bg-navy text-white py-2 overflow-hidden border-b border-gold/30">
+        <div class="ticker-text text-[10px] font-bold uppercase tracking-[0.2em]">
+            GST GSTR-1 Deadline: 8 Days Left • <span class="text-gold">Average Client Tax Saving: 18.4%</span> • Final
+            Advance Tax Installment due Mar 15 • <span class="text-gold">100% Litigation Success Rate for FY 2025</span>
+            • Certified Information Systems Auditor (CISA) On Board •
+        </div>
+    </div>
+
+    <nav class="flex justify-between items-center px-8 md:px-16 py-6 border-b border-slate-100">
+        <div class="text-xl font-bold tracking-tighter serif italic text-navy">
+            V. <span class="text-gold">KAPOOR</span> & ASSOCIATES
+        </div>
+        <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-widest text-slate-500">
+            <a href="#resources" class="hover:text-gold transition">Resources</a>
+            <a href="#credentials" class="hover:text-gold transition">Verification</a>
+            <a href="#contact"
+                class="px-5 py-2 border-2 border-navy text-navy rounded hover:bg-navy hover:text-white transition">Book
+                Audit</a>
+        </div>
+    </nav>
+
+    <section class="max-w-6xl mx-auto px-8 py-20 text-center">
+        <div class="mb-6 flex justify-center">
+            <div class="flex -space-x-3">
+                <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-200"></div>
+                <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-300"></div>
+                <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-400"></div>
+                <div
+                    class="w-12 h-12 rounded-full border-2 border-white bg-navy flex items-center justify-center text-[10px] text-white font-bold">
+                    +400</div>
+            </div>
+        </div>
+        <h1 class="serif text-5xl md:text-7xl mb-6">Securing your financial <br><span
+                class="italic text-gold">integrity.</span></h1>
+        <p class="text-slate-500 max-w-xl mx-auto mb-10 text-lg leading-relaxed">Practicing under the ICAI with a focus
+            on high-assurance auditing and strategic tax litigation for established corporations.</p>
+
+        <div class="flex flex-wrap justify-center gap-8 opacity-60 grayscale">
+            <span class="text-[10px] font-bold border px-3 py-1 border-slate-300">FCA MEMBER</span>
+            <span class="text-[10px] font-bold border px-3 py-1 border-slate-300">DISA CERTIFIED</span>
+            <span class="text-[10px] font-bold border px-3 py-1 border-slate-300">GST REGISTERED</span>
+        </div>
+    </section>
+
+    <section id="resources" class="bg-slate-50 py-20 border-y border-slate-100">
+        <div class="max-w-5xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
+            <div class="bg-white p-2 shadow-2xl rounded-lg rotate-1">
+                <div
+                    class="bg-navy p-10 rounded text-white aspect-[3/4] flex flex-col justify-between border-4 border-gold">
+                    <h3 class="serif text-3xl italic">The 2026 <br>Tax-Saving <br>Checklist</h3>
+                    <p class="text-[10px] uppercase tracking-widest text-gold font-bold">Free for Business Owners</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="serif text-4xl mb-6 italic">Avoid common filing errors.</h2>
+                <p class="text-slate-600 mb-8 leading-relaxed text-sm">Download our exclusive guide on "5 Things Every
+                    Founder Misses Before GST Filing" to save up to 12% in potential penalties.</p>
+                <form class="space-y-4">
+                    <input type="email" placeholder="Enter your email"
+                        class="w-full p-4 border border-slate-200 rounded focus:border-gold outline-none transition">
+                    <button
+                        class="w-full py-4 bg-gold text-white font-bold uppercase tracking-widest text-xs hover:bg-navy transition">Get
+                        My Free Copy</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 text-center max-w-4xl mx-auto">
+        <h2 class="serif text-4xl mb-16">Our Engagement Framework</h2>
+
+        <div class="grid md:grid-cols-3 gap-10 mt-16 text-left">
+            <div>
+                <h4 class="font-bold text-navy text-sm uppercase mb-2">01. Discovery</h4>
+                <p class="text-xs text-slate-500 leading-relaxed">No-obligation deep dive into your current fiscal
+                    books.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-navy text-sm uppercase mb-2">02. Strategy</h4>
+                <p class="text-xs text-slate-500 leading-relaxed">Custom structuralization for maximum legal tax
+                    protection.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-navy text-sm uppercase mb-2">03. Compliance</h4>
+                <p class="text-xs text-slate-500 leading-relaxed">Seamless filing and 24/7 audit readiness.</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/910000000000" target="_blank"
+        class="fixed bottom-10 right-10 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center gap-2 z-50">
+        <span class="text-xs font-bold uppercase pl-2 hidden md:block">Direct Line</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48 2.242 2.242 3.48 5.227 3.48 8.403 0 6.557-5.332 11.888-11.888 11.888-2.007 0-3.978-.507-5.731-1.472l-6.25 1.649zm6.39-4.813c1.615.959 3.511 1.465 5.441 1.465 5.943 0 10.777-4.834 10.777-10.777 0-2.875-1.12-5.578-3.153-7.611-2.034-2.033-4.736-3.153-7.61-3.153-5.944 0-10.778 4.835-10.778 10.778 0 1.907.487 3.778 1.413 5.415l-1.08 3.941 4.041-1.058z" />
+        </svg>
+    </a>
+
+    <footer id="credentials" class="bg-navy text-white py-16 px-8 border-t-8 border-gold">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-16">
+            <div>
+                <h4 class="text-gold font-bold uppercase text-xs tracking-widest mb-6">Firm Credentials</h4>
+                <ul class="text-xs space-y-3 opacity-60 leading-relaxed">
+                    <li>ICAI Member Reg No: 123456X</li>
+                    <li>Udyam: UDYAM-MH-01-00000</li>
+                    <li>GSTIN: 27AAAAA0000A1Z5</li>
+                    <li>ISO 9001:2015 Certified Practice</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-gold font-bold uppercase text-xs tracking-widest mb-6">Office Address</h4>
+                <p class="text-xs leading-relaxed opacity-60">
+                    Suite 405, Financial District,<br>
+                    BKC G-Block, Mumbai 400051<br>
+                    India
+                </p>
+            </div>
+            <div>
+                <h4 class="text-gold font-bold uppercase text-xs tracking-widest mb-6">Legal Disclaimer</h4>
+                <p class="text-[9px] leading-relaxed opacity-40">
+                    This website is for informational purposes only. It is not an advertisement or solicitation as per
+                    the Code of Ethics of the Institute of Chartered Accountants of India.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
